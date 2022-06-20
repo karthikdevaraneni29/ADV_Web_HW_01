@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Karthik Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link href="assets/mystyle.css" rel="stylesheet">
+</head>
+
+<body onLoad="typeWriter()">
+    <!---Ref: https://getbootstrap.com/docs/4.0/utilities/flex/-->
+    <header id="navigationheader" class="d-inline-flex flex-column justify-content-center">
+        <nav id="navbar" class="navbar mainMenu">
+            <ul>
+            <li><a href="index.html" ><i class="fa fa-home"></i> <span>Home</span></a></li>
+            <li><a href="about.html" ><i class="fa fa-user"></i> <span>About</span></a></li>
+            <li><a href="#resume"><i class="fa fa-file-pdf-o"></i> <span>Resume</span></a></li>
+            <li><a href="portfolio.html"><i class="fa fa-camera-retro"></i> <span>Portfolio</span></a></li>
+            <li><a href="#contact"><i class="fa fa-envelope"></i> <span>Contact</span></a></li>
+            </ul>
+        </nav>
+      </header>
+
+    <section id="banner" class="d-inline-flex flex-column justify-content-center">
+        <div class="container">
+          <h1>Karthik Devaraneni</h1>
+          <p>I'm <span class="typed" id="myBannerTyping" data-typed-items="Environmentalist, Web-Developer, Photographer and Freelancer"></span></p>
+        </div>
+    </section>
+
+    <main id="main">
+      <section id="resume" class="resume">
+        <div class="container">
+            <div class="portfolio-title">
+                <h2 style="padding-top: 30px;">Resume</h2>
+             </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3>Education</h3>
+                    <ul class="myResume">
+                        <li>
+                        <div class="resume-items">
+                            <h4>Masters in Computer Science</h4>
+                            <h5>2022 - Present</h5>
+                            <p><em>University of Alabama at Birmingham, AL</em></p>
+                        </div>
+                        </li>
+
+                        <li>
+                        <div class="resume-items">
+                            <h4>Bachelors in Computer Science</h4>
+                            <h5>2011 - 2015</h5>
+                            <p><em>Jawaharlal Nehru Technological University Hyd, India</em></p>
+                        </div>
+                        </li>
+
+                        <li>
+                            <li>
+                                <h3>Skills</h3>
+                            <div class="resume-items">
+                                <ol>
+                                    <li>Node Js</li>
+                                    <li>Python</li>
+                                    <li>Java</li>
+                                    <li>Php</li>
+                                    <li>Graph QL</li>
+                                    <li>MongoDB, MySql, Sql DB</li>
+                                </ol>
+                            </div>
+                            </li>
+                        </li>
+
+                        <li>
+                            <li>
+                                <a class="btn btn-outline-info" href="assets/Karthik_Resume .pdf" target="_blank">
+                                    View Complete Resume
+                                </a>
+                            </li>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-8">
+                    <h3>Professional Experience</h3>
+                    <ul class="myResume">
+                        <li>
+                        <div class="resume-items">
+                            <h4>Senior Software Engineer</h4>
+                            <h5>2019 - 2022</h5>
+                            <p><em>Chubb Limited</em></p>
+                            <ul>
+                                <li>
+                                    <p>As a back-end developer in Chubb Studio platform, I am responsible for building microservices
+                                        within a proprietary plugin-based framework in Node.js.</p>
+                                </li>
+                                <li>
+                                    <p>I was instrumental in building the match and merge API parameter resolution which acts as the
+                                        core to enable multi-tenancy in Chubb Studio.</p>
+                                </li>
+                                <li>
+                                    <p>I had also helped the team with diagnosing and measuring the performance of the backend
+                                        microservices using Clinic.js Doctor and load testing tools like autocannon.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        </li>
+
+                        <li>
+                        <div class="resume-items">
+                            <h4>Junior Software Engineer</h4>
+                            <h5>2017 - 2019</h5>
+                            <p><em>Sixth Block Software Solutions</em></p>
+                            <ul>
+                                <li>
+                                    <p>As a back-end developer in www.vobo.ai platform, I am responsible for building Rest API’s
+                                        following standard MVC pattern and used Alexa and Google Assistant services to build skills.</p>
+                                </li>
+                                <li>
+                                    <p>I have built custom Elastic Search Text Analyzer to suit the needs of solution which increased
+                                        query search rate to min of 70%.</p>
+                                </li>
+                                <li>
+                                    <p>Integrated automated scripts to feed the data to elastic search cluster.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </section>
+     <div class="container-fluid"><br><br></div>
+     <section id="contact" class="contact">
+        <div class="container">
+  
+          <div class="portfolio-title">
+            <h2>Contact</h2>
+          </div>
+  
+          <div class="row mt-1">
+  
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <i class="fa fa-map-marker ">&nbsp;</i>
+                  <h4 style="padding: 0 0 0 60px;">Location:</h4>
+                  <p>11901 16th Ave S, Birmingham AL</p>
+                </div>
+  
+                <div class="email">
+                  <i class="fa fa-envelope"></i>
+                  <h4 style="padding: 0 0 0 60px;">Email:</h4>
+                  <p>ikarthik*****gmail.com</p>
+                </div>
+  
+                <div class="phone">
+                  <i class="fa fa-phone"></i>
+                  <h4 style="padding: 0 0 0 60px;">Call:</h4>
+                  <p>+1 (111) 123 4567</p>
+                </div>
+  
+              </div>
+  
+            </div>
+  
+            <div class="col-lg-8 mt-5 mt-lg-0">
+  
+              <form action="" method="post" role="form" class="myContactForm">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+              </form>
+              <br>
+              <button class="btn btn-primary me-md-2 pull-right" type="submit">Send Message</button>
+            </div>
+  
+          </div>
+        </div>
+      </section><!-- End Contact Section -->
+    </main><!-- End main-->
+    <br>
+    <footer id="footer">
+        <div class="container">
+          <h3>Karthik Devaraneni</h3>
+          <div class="socialmedia-links">
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="fa fa-skype"></i></a>
+            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          </div>
+          <div class="copyright pull-right">
+            &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits pull-right">
+           Designed by <a href="#">Karthik</a>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
+<script>
+let index = 0;
+var txt = document.getElementById("myBannerTyping").getAttribute("data-typed-items");
+function typeWriter() {
+  if (index < txt.length) {
+    document.getElementById("myBannerTyping").innerHTML += txt.charAt(index);
+    index++;
+    setTimeout(typeWriter, 70);
+  }
+}
+</script>
+<!-----
+Refferences: 
+1) Flex Instructions -Ref: https://getbootstrap.com/docs/4.0/utilities/flex/
+2) Main Tag - Ref: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_main
+3) CSS Selector - Ref: https://www.w3schools.com/cssref/css_selectors.asp
+4) HTML and CSS - Ref: https://www.w3schools.com/
+5) Template Bootstrap Made
+6) Base Template - Ref: https://bootsnipp.com/
+-->
